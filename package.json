@@ -1,0 +1,29 @@
+{
+  "name": "ops",
+  "version": "1.0.0",
+  "description": "This is a dummy repository to practice professional project structuring.",
+  "main": "index.js",
+ "scripts": {
+  "lint": "eslint .",
+  "test": "echo \"No tests yet\" && exit 0",
+  "prepare": "husky install"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony555t/ops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tony555t/ops/issues"
+  },
+  "homepage": "https://github.com/tony555t/ops#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.4.0",
+    "husky": "^8.0.0"
+  }
+}
