@@ -8,6 +8,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended'
+    // Remove React extends for now to simplify
   ],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -19,28 +20,5 @@ module.exports = {
   rules: {
     'no-undef': 'off',
     'no-unused-vars': 'warn'
-  },
-  globals: {
-    // Node.js globals
-    require: 'readonly',
-    process: 'readonly',
-    module: 'readonly',
-    exports: 'readonly',
-    __dirname: 'readonly',
-    __filename: 'readonly',
-    global: 'readonly',
-    Buffer: 'readonly',
-    console: 'readonly',
-    
-    // Jest/Testing globals
-    test: 'readonly',
-    expect: 'readonly',
-    describe: 'readonly',
-    it: 'readonly',
-    beforeEach: 'readonly',
-    afterEach: 'readonly',
-    beforeAll: 'readonly',
-    afterAll: 'readonly',
-    jest: 'readonly'
   }
 };
