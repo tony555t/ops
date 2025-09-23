@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "This is a dummy repository to practice professional project structuring.",
   "main": "index.js",
- "scripts": {
-  "lint": "eslint .",
-  "test": "echo \"No tests yet\" && exit 0",
-  "prepare": "husky install"
-},
+  "scripts": {
+    "start": "node backend/index.js",   
+    "lint": "eslint .",
+    "test": "echo \"No tests yet\" && exit 0",
+    "prepare": "husky install"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tony555t/ops.git"
