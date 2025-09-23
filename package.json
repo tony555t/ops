@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "This is a dummy repository to practice professional project structuring.",
   "main": "index.js",
-  "scripts": {
-    "lint": "echo 'Linting skipped' && exit 0",
-    "test": "echo 'No tests yet' && exit 0",
-    "prepare": "husky install"
-  },
+ 
+"scripts": {
+  "start": "node dist/server.js",
+  "build": "tsc"
+},
+
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tony555t/ops.git"
