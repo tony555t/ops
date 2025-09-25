@@ -5,7 +5,7 @@ on:
     branches: [ main, develop ]
   push:
     branches: [ main, develop ]
-  workflow_dispatch: # Allow manual triggering
+  workflow_dispatch: 
 
 env:
   NODE_VERSION: '18'

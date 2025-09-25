@@ -1,16 +1,15 @@
-import React, { useState, useEffect } from 'react'; // Import React and hooks
-import axios from 'axios'; // Import Axios for API requests
+import React, { useState, useEffect } from 'react'; 
+import axios from 'axios'; 
 
 function App() {
-  // State for storing users fetched from the backend
+  
   const [users, setUsers] = useState([]);
-  // State for the input field to add a new user
   const [name, setName] = useState('');
 
   // Fetch users when the component mounts
   useEffect(() => {
     axios.get('http://localhost:3000/users').then(res => setUsers(res.data));
-  }, []); // Empty array means run once on mount
+  }, []); 
 
   // Add a new user via the API
   const addUser = async () => {
